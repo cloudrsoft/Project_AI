@@ -1,19 +1,21 @@
 #include "feel.h"
 
+using namespace feel; // use feel namespace
+
 namespace ProjectAICore
 {
 
-    feel::feel()
+    feel()
     {
 
     }
 
-    void feel::setCurrentFeel(int FeelInfo)
+    void setCurrentFeel(int FeelInfo)
     {
         currentfeel = FeelInfo;
     }
 
-    int feel::getCurrentFeel()
+    int getCurrentFeel()
     {
         return currentfeel;
     }

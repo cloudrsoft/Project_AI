@@ -1,19 +1,21 @@
 #include "core.h"
 
+using namespace core; // use core namespace
+
 namespace ProjectAICore
 {
 
-    core::core()
+    core()
     {
 
     }
 
-    QStringList core::splitText(QString Text)
+    QStringList splitText(QString Text)
     {
 
     }
 
-    int core::feelText(QString Text)
+    int feelText(QString Text)
     {
 
     }
