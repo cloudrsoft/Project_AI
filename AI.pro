@@ -15,13 +15,15 @@ TEMPLATE = app
 SOURCES += main.cpp\
     core.cpp \
     control.cpp \
-    badlist.cpp
+    badlist.cpp \
+    feel.cpp
 
 HEADERS  += \
     core.h \
     version.h \
     control.h \
-    badlist.h
+    badlist.h \
+    feel.h
 
 FORMS    += \
     control.ui
