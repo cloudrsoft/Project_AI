@@ -2,7 +2,7 @@
 #define CORE_H
 
 #include <QtCore>
-#include "badlist.h"
+#include "listsecond.h"
 #include "feel.h"
 
 namespace ProjectAICore
@@ -21,7 +21,8 @@ namespace ProjectAICore
         /* Text 관련 영역 끝 */
 
         /* 변수 */
-        badlist *bad = new badlist;
+        listsecond *bad = new listsecond;
+        listsecond *good = new listsecond;
     };
 
 }
