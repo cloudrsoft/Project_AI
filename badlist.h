@@ -9,8 +9,9 @@ namespace ProjectAICore{
     {
     public:
         badlist();
-        bool addBadList(QString Text);
-        QStringList getBadList();
+        void addBadList(QString Text);
+        qint64 getBadListSize();
+        QStringList getBadList(qint64 num);
 
     private:
         QStringList badlistadd;

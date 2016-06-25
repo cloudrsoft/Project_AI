@@ -10,7 +10,7 @@ namespace ProjectAICore
 
     void feel::setCurrentFeel(int FeelInfo)
     {
-        currentfeel = Feel;
+        currentfeel = FeelInfo;
     }
 
     int feel::getCurrentFeel()
