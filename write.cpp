@@ -1,6 +1,11 @@
 #include "write.h"
 
-write::write()
+namespace ProjectAIDB
 {
+
+    write::write()
+    {
+
+    }
 
 }
