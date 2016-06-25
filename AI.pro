@@ -16,14 +16,16 @@ SOURCES += main.cpp\
     core.cpp \
     control.cpp \
     feel.cpp \
-    listsecond.cpp
+    listsecond.cpp \
+    write.cpp
 
 HEADERS  += \
     core.h \
     version.h \
     control.h \
     feel.h \
-    listsecond.h
+    listsecond.h \
+    write.h
 
 FORMS    += \
     control.ui
