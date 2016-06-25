@@ -1,5 +1,3 @@
-/* Project AI (C) 2016. CloudR Soft Group Inc. */
-
 #ifndef VERSION_H
 #define VERSION_H
 

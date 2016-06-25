@@ -1,5 +1,3 @@
-/* Project AI (C) 2016. CloudR Soft Group Inc. */
-
 #ifndef CONTROL_H
 #define CONTROL_H
 
